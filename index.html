@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>🐕‍🦺 Animal recognisation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="col-xs-12 div_header text_center">
+            <h2>Animal voice recognisation</h2>
+            <p>Note: you can make sound like bark,meow,roar</p>
+        </div>
+        <div class="main_div">
+            <center>
+                <br>
+                <button style="background-color: seagreen; color: black;" onclick="startClassification()">Start</button>
+                <h4 id="result_label"> I can hear-</h4>
+                <h3 id="result_accuracy_label"> Accuracy- </h3>
+                <br>
+                <img src="ear.jpg" id="animals" width="300" height="300">
+            </center>
+        </div>
+        <div class="copy_right_footer">
+            <h5><b>Developed by- Aradhyo roy</b></h5>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
